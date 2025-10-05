@@ -219,6 +219,17 @@ p {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .container_menu {
+    display: inline-block;
+    align-items: center;
+  }
+  .text_menu {
+    margin-top: 10px;
+    margin-left: 5%;
+  }
+}
+
 /*Navbar stuff*/
 
 
@@ -341,6 +352,17 @@ ul{
   float: right;
   grid-column: 3;
   grid-row: 1;
+}
+
+.slideshow-container-fish {
+  display: flex;
+  position: relative;
+  float: right;
+  grid-column: 2;
+  grid-row: 1;
+  width: 400px;
+  height: 400px;
+  margin-right: 300px;
 }
 
 .slide {
